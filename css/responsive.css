@@ -1,0 +1,172 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media(min-width: 320px) and (max-width: 575px) {    
+    .banner_cont p {
+        padding: 6px 0px;
+        font-size: 14px;
+        margin: 84px 0px;
+    }
+    .banner_cont h1 {
+        font-size: 40px;
+    }
+    .serv_block {
+        margin-bottom: 30px;
+    }
+    .slider_2, .slider_3, .slider_1 {
+        height: 345px;
+    }
+    .ban_overlay {
+        height: 89.5%;
+    }
+    .banner_cont {
+        margin-top: 85px;
+    }
+    .progress .percentage{
+        padding-left: 250px;
+    }
+    .progress .seventy {
+        padding-left: 200px;
+    }
+    .progress .eighty{
+        padding-left: 220px;
+    }
+    .progress .eightfive{
+        padding-left: 240px;
+    }
+    .choice_list {
+        padding: 20px 0px;
+    }
+    .clnt_head h5::after {
+        left: -8px;
+        top: 29px;
+    }
+    .clnt_arrow{
+        text-align: center;
+    }
+    .fotter_comunity {
+        padding-top: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    .gly_head h2 {
+        font-size: 27px;
+    }
+    .ftr_gly,
+    .fotter_cmpny {
+        padding-top: 40px;
+    }
+    .fotter_comunity {
+        padding-top: 47px;
+    }
+    .footer_cont p{
+        font-size: 13px;
+    }
+    .footer_icon ul li a {
+        font-size: 16px;
+        padding: 0px 4px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .slider_2, .slider_3, .slider_1 {
+        height: 370px;
+    }
+    .banner_cont p {
+        margin: 25px 0px; 
+    }
+    .ban_overlay{
+        height: 90.5%;
+    }
+    .serv_block {
+        margin-bottom: 30px;
+    }
+    .dis_choice {
+        margin-bottom: 30px;
+    }
+    .clnt_head h5::after {
+        left: -8px;
+        top: 30px;
+    }
+    .ftr_gly,
+    .fotter_cmpny {
+        padding-top: 40px;
+    }
+    .fotter_comunity {
+        padding-top: 47px;
+    }
+    .footer_cont p {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .slider_2, .slider_3, .slider_1 {
+        height: 430px;
+    }
+    .banner_cont p {
+        margin: 15px 0px;
+    }
+    .ban_overlay{
+        height: 91.7%;
+    }
+    .serv_block {
+        margin-bottom: 30px;
+    }
+    .dis_choice {
+        margin-bottom: 30px;
+    }
+    .clnt_head h5::after {
+        left: -8px;
+        top: 30px;
+    }
+    .fotter_comunity,
+    .ftr_gly,
+    .fotter_cmpny {
+        padding-top: 40px;
+    }
+    .footer_cont p {
+        font-size: 13px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_cont p {
+        margin: 25px 190px;
+    }
+    .serv_head_right a {
+        font-size: 15px;
+        margin: 22px 0px 0px;
+    }
+    .progress .percentage {
+        padding-left: 393px;
+    }
+    .progress .eightfive {
+        padding-left: 387px;
+    }
+    .clnt_head h5::after {
+        left: 148px;
+    }
+    .client_img img {
+        padding: 23px 0px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
